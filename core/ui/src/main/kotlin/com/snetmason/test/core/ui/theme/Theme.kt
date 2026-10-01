@@ -1,4 +1,4 @@
-package com.snetmason.test.ui.theme
+package com.snetmason.test.core.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme
