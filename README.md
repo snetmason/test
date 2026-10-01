@@ -5,8 +5,9 @@ Kotlin + Jetpack Compose 기반의 멀티모듈 안드로이드 프로젝트입�
 ## 요구 사항
 
 - Android Studio (최신 안정 버전 권장)
-- JDK 17
-- Android SDK (API 34)
+- JDK 25
+- Android SDK (API 37)
+- Gradle 9.7.1 / AGP 9.4.0 / Kotlin 2.3.x
 
 ## 실행 방법
 

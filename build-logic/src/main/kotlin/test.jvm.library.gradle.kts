@@ -5,8 +5,12 @@ plugins {
     id("org.jetbrains.kotlin.jvm")
 }
 
+kotlin {
+    jvmToolchain(25)
+}
+
 tasks.withType<KotlinCompile>().configureEach {
     compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_17)
+        jvmTarget.set(JvmTarget.JVM_25)
     }
 }
